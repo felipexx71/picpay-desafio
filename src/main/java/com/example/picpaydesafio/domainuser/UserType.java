@@ -1,4 +1,8 @@
 package com.example.picpaydesafio.domainuser;
 
-public class UserType {
+import org.hibernate.boot.model.source.internal.hbm.CompositeIdentifierSingularAttributeSourceManyToOneImpl;
+
+public enum UserType {
+    COMMON,
+    MERCHANT
 }
